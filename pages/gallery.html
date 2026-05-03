@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galéria - Moje Portfólio</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Moje Portfólio</div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Domov</a></li>
+                <li><a href="about.html">O mne</a></li>
+                <li><a href="projects.html">Projekty</a></li>
+                <li><a href="gallery.html" class="active">Galéria</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+                <li><a href="data.html">Dáta</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Galéria</h1>
+            <p>Galeria mojich projektov a návrhov (klikni na obrázok na zväčšenie)</p>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="container">
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="../assets/images/design1.svg" alt="Web Design 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="../assets/images/design2.svg" alt="E-Shop Design">
+                </div>
+                <div class="gallery-item">
+                    <img src="../assets/images/design3.svg" alt="Mobile App UI">
+                </div>
+                <div class="gallery-item">
+                    <img src="../assets/images/design4.svg" alt="Brand Identity">
+                </div>
+                <div class="gallery-item">
+                    <img src="../assets/images/design5.svg" alt="Dashboard Project">
+                </div>
+                <div class="gallery-item">
+                    <img src="../assets/images/design6.svg" alt="Portfolio Gallery">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal pre zväčšenie obrázkov -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage" src="">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Moje Portfólio. Všetky práva vyhradené.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

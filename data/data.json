@@ -1,0 +1,86 @@
+{
+  "company": {
+    "name": "Tech Solutions s.r.o.",
+    "location": "Bratislava, Slovensko",
+    "founded": 2015,
+    "employees": [
+      {
+        "id": 1,
+        "name": "Ján Čech",
+        "position": "Senior Frontend Developer",
+        "salary": 3500,
+        "projects": [
+          {
+            "name": "E-shop",
+            "budget": 15000,
+            "status": "Dokončený"
+          },
+          {
+            "name": "Admin Panel",
+            "budget": 8000,
+            "status": "V progrese"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Mária Novotná",
+        "position": "UI/UX Designer",
+        "salary": 2800,
+        "projects": [
+          {
+            "name": "Mobile App Design",
+            "budget": 12000,
+            "status": "Dokončený"
+          },
+          {
+            "name": "Web Design Refresh",
+            "budget": 5000,
+            "status": "Dokončený"
+          },
+          {
+            "name": "Brand Identity",
+            "budget": 7000,
+            "status": "V progrese"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Peter Horváth",
+        "position": "Backend Developer",
+        "salary": 3800,
+        "projects": [
+          {
+            "name": "API Development",
+            "budget": 20000,
+            "status": "V progrese"
+          },
+          {
+            "name": "Database Optimization",
+            "budget": 6000,
+            "status": "Dokončený"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Eva Kováčová",
+        "position": "QA Tester",
+        "salary": 2200,
+        "projects": [
+          {
+            "name": "Testing E-shop",
+            "budget": 4000,
+            "status": "Dokončený"
+          },
+          {
+            "name": "Automatizované testy",
+            "budget": 8000,
+            "status": "V progrese"
+          }
+        ]
+      }
+    ]
+  }
+}

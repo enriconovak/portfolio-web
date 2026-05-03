@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dáta - Moje Portfólio</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Moje Portfólio</div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Domov</a></li>
+                <li><a href="about.html">O mne</a></li>
+                <li><a href="projects.html">Projekty</a></li>
+                <li><a href="gallery.html">Galéria</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+                <li><a href="data.html" class="active">Dáta</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Dáta a AJAX</h1>
+            <p>Tabuľka načítaná z JSON súboru cez AJAX</p>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="container">
+            <h2>Dáta spoločnosti</h2>
+            <p>Nižšie je zobrazená tabuľka so štruktúrovanými dátami načítanými z JSON súboru. Dáta obsahujú hierarchickú štruktúru s aspoň 3 úrovňami vnorenia (spoločnosť → zamestnanci → projekty).</p>
+            
+            <div class="data-controls">
+                <button id="loadDataBtn" class="btn-primary">🔄 Načítať dáta</button>
+                <button id="clearDataBtn" class="btn-secondary">🗑️ Vyčistiť</button>
+            </div>
+
+            <div class="table-section" id="dataContainer">
+                <p class="placeholder">Kliknite na tlačidlo "Načítať dáta" pre zobrazenie tabuľky cez AJAX.</p>
+            </div>
+
+            <h2>Technické detaily</h2>
+            <ul style="margin-left: 2rem;">
+                <li><strong>Dátový zdroj:</strong> JSON súbor (data/data.json)</li>
+                <li><strong>Metóda:</strong> Fetch API s AJAX</li>
+                <li><strong>Štruktúra:</strong> Spoločnosť → Zamestnanci → Projekty</li>
+                <li><strong>Funkcionalita:</strong> Dynamické vykresľovanie tabuľky</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Moje Portfólio. Všetky práva vyhradené.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
